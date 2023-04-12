@@ -31,15 +31,15 @@ Before you can use the extension, you'll need to set up a few configuration vari
 
 #### OpenAI API Key
 
-The extension uses the OpenAI API to analyze the email drafts and provide suggestions. To use the API, you'll need an API key from OpenAI. You can obtain an API key by creating an account on the OpenAI website.
+The extension uses the OpenAI API to analyze the email drafts and provide suggestions. To use the API, you'll need an API key from OpenAI. You can obtain an API key by [creating an account on the OpenAI website](https://beta.openai.com/signup/).
 
-To configure the API key, click the extension icon in your browser's toolbar and enter your OpenAI API key in the provided input field. Then click the "Save API Key" button to save your API key for future use.
+To configure the API key, click the extension icon in your browser's toolbar and enter your OpenAI API key in the provided input field. After entering the API key, click the "Save Settings" button to save it for future use.
 
 #### Signature Delimiter
 
 If your email signature is automatically appended to your email drafts in Gmail, you can specify a delimiter to distinguish the signature from the main content of the email. The extension will use this delimiter to exclude the signature from the analysis.
 
-To configure the signature delimiter, click the extension icon in your browser's toolbar and enter the delimiter in the provided input field.
+To configure the signature delimiter, click the extension icon in your browser's toolbar and enter the delimiter in the provided input field. Then click the "Save Settings" button.
 
 ## Usage
 
