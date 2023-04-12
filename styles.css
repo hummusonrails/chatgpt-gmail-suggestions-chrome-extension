@@ -1,18 +1,24 @@
 body {
   font-family: Arial, sans-serif;
-  width: 300px;
-  padding: 10px;
+  padding: 15px;
 }
 
-button {
-  margin-top: 10px;
+.settings-section {
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.review-button {
   background-color: #4CAF50;
-  border: none;
   color: white;
-  padding: 5px 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 14px;
+  border: none;
+  padding: 10px 15px;
   cursor: pointer;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.review-button:hover {
+  background-color: #3f9a40;
 }
