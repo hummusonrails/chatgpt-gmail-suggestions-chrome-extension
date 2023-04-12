@@ -1,8 +1,15 @@
-document.getElementById("saveButton").addEventListener("click", () => {
-  const apiKey = document.getElementById("apiKeyInput").value;
-  const signatureDelimiter = document.getElementById("signatureDelimiter").value;
+const apiKeyInput = document.getElementById('apiKeyInput');
+const signatureDelimiterInput = document.getElementById('signatureDelimiter');
+const editApiKeyButton = document.getElementById('editApiKeyButton');
+const saveButton = document.getElementById('saveButton');
+
+saveButton.addEventListener("click", () => {
+  const apiKey = apiKeyInput.value;
+  const signatureDelimiter = signatureDelimiterInput.value;
   chrome.storage.sync.set({ apiKey, signatureDelimiter }, () => {
     alert("API key and signature delimiter saved.");
+    apiKeyInput.readOnly = true;
+    apiKeyInput.type = 'password';
   });
 });
 
@@ -15,10 +22,15 @@ document.getElementById("reviewButton").addEventListener("click", () => {
 });
 
 chrome.storage.sync.get(["apiKey", "signatureDelimiter"], result => {
-  if (result.apiKey) {
-    document.getElementById("apiKeyInput").value = result.apiKey;
-  }
+  apiKeyInput.value = result.apiKey || '';
+
   if (result.signatureDelimiter) {
-    document.getElementById("signatureDelimiter").value = result.signatureDelimiter;
+    signatureDelimiterInput.value = result.signatureDelimiter;
   }
+});
+
+editApiKeyButton.addEventListener('click', () => {
+  apiKeyInput.readOnly = false;
+  apiKeyInput.type = 'text';
+  apiKeyInput.focus();
 });
