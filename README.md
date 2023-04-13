@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Contributing](https://img.shields.io/badge/Contributing-Guidelines-blue)](CONTRIBUTING.md)
 [![Code of Conduct](https://img.shields.io/badge/Code%20of%20Conduct-Respectful-orange)](CODE_OF_CONDUCT.md)
-[![Visitors](https://visitor-badge.glitch.me/badge?page_id=bencgreenberg.chatgpt-gmail-suggestions-chrome-extension)](https://github.com/bencgreenberg/chatgpt-gmail-suggestions-chrome-extension)
+[![Visitors](https://visitor-badge.glitch.me/badge?page_id=hummusonrails.chatgpt-gmail-suggestions-chrome-extension)](https://github.com/hummusonrails/chatgpt-gmail-suggestions-chrome-extension)
 [![Made with Love](https://img.shields.io/badge/Made%20with-Love-ff69b4.svg)](https://shields.io/)
 
 This is a Chrome extension that integrates with Gmail to review email drafts using ChatGPT. The extension allows users to select different writing styles for their emails, such as friendly, business, authoritative, personal, casual, serious, and lighthearted. It then uses ChatGPT to analyze and provide suggestions for the email draft based on the chosen writing style.
@@ -14,7 +14,7 @@ To use this extension, you'll need to install it on your Google Chrome browser o
 Download or clone the project from GitHub:
 
 ```bash
-git clone https://github.com/bencgreenberg/chatgpt-gmail-suggestions-chrome-extension
+git clone https://github.com/hummusonrails/chatgpt-gmail-suggestions-chrome-extension
 ```
 
 Open the Extensions page in Chrome by navigating to `chrome://extensions/`.
