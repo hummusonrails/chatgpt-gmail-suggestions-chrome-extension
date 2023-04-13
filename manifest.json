@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "ChatGPT Email Reviewer",
   "author": "Ben Greenberg",
-  "homepage_url": "https://github.com/bencgreenberg/chatgpt-gmail-suggestions-chrome-extension",
+  "homepage_url": "https://github.com/hummusonrails/chatgpt-gmail-suggestions-chrome-extension",
   "version": "1.0",
   "description": "Review and improve email style in Gmail drafts with ChatGPT",
   "permissions": [
